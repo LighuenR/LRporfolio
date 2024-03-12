@@ -61,7 +61,7 @@ useSeoMeta({
       <UContainer>
         <h2 class="text-6xl">Projects where I work</h2>
       </UContainer>
-      
+
       <!-- Project 1 -->
 
       <UContainer
@@ -76,11 +76,27 @@ useSeoMeta({
             using the app.
           </p>
           <div class="gap-2 flex">
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon
+              name="i-simple-icons-github"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-discord"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon name="i-simple-icons-x" class="w-10 h-10 flex-shrink-0" />
+            <UIcon
+              name="i-simple-icons-instagram"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-linkedin"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-facebook"
+              class="w-10 h-10 flex-shrink-0"
+            />
           </div>
         </div>
 
@@ -102,11 +118,27 @@ useSeoMeta({
             using the app.
           </p>
           <div class="gap-2 flex">
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon
+              name="i-simple-icons-github"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-discord"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon name="i-simple-icons-x" class="w-10 h-10 flex-shrink-0" />
+            <UIcon
+              name="i-simple-icons-instagram"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-linkedin"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-facebook"
+              class="w-10 h-10 flex-shrink-0"
+            />
           </div>
         </div>
       </UContainer>
@@ -125,11 +157,27 @@ useSeoMeta({
             using the app.
           </p>
           <div class="gap-2 flex">
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
-            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon
+              name="i-simple-icons-github"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-discord"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon name="i-simple-icons-x" class="w-10 h-10 flex-shrink-0" />
+            <UIcon
+              name="i-simple-icons-vuedotjs"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-javascript"
+              class="w-10 h-10 flex-shrink-0"
+            />
+            <UIcon
+              name="i-simple-icons-tailwindcss"
+              class="w-10 h-10 flex-shrink-0"
+            />
           </div>
         </div>
 
