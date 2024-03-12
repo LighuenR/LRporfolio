@@ -56,28 +56,86 @@ useSeoMeta({
         </UBadge>
       </template>
     </ULandingHero>
+    <!-- Projects section -->
+    <div class="flex flex-col gap-40">
+      <UContainer>
+        <h2 class="text-6xl">Projects where I work</h2>
+      </UContainer>
+      
+      <!-- Project 1 -->
 
-    <ULandingSection
-      title="COFF"
-      description="COFF is an application that utilizes NFTs for the purchasing process of coffe. It lets users buy and sell tokens, COFF, which can be acquired anytime, anywhere, and change them at registered stores using the app."
-      align="left"
-    >
-      <img src="/public/img/coff.png" alt="" />
-    </ULandingSection>
-    <ULandingSection
-      title="COFF"
-      description="COFF is an application that utilizes NFTs for the purchasing process of coffe. It lets users buy and sell tokens, COFF, which can be acquired anytime, anywhere, and change them at registered stores using the app."
-      align="right"
-    >
-      <img src="/public/img/codecave.png" alt="" />
-    </ULandingSection>
-    <ULandingSection
-      title="COFF"
-      description="COFF is an application that utilizes NFTs for the purchasing process of coffe. It lets users buy and sell tokens, COFF, which can be acquired anytime, anywhere, and change them at registered stores using the app."
-      align="left"
-    >
-      <img src="/public/img/vegy.png" alt="" />
-    </ULandingSection>
+      <UContainer
+        class="grid grid-cols-2 justify-center text-left items-center space-x-4"
+      >
+        <div class="flex flex-col gap-4">
+          <h2 class="text-5xl font-bold">COFF</h2>
+          <p class="text-xl">
+            COFF is an application that utilizes NFTs for the purchasing process
+            of coffe. It lets users buy and sell tokens, COFF, which can be
+            acquired anytime, anywhere, and change them at registered stores
+            using the app.
+          </p>
+          <div class="gap-2 flex">
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+          </div>
+        </div>
+
+        <div><img src="/public/img/coff.png" alt="" /></div>
+      </UContainer>
+
+      <!-- Project 2 -->
+
+      <UContainer
+        class="grid grid-cols-2 justify-center text-left items-center space-x-4"
+      >
+        <div><img src="/public/img/vegy.png" alt="" /></div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-5xl font-bold">Vegy</h2>
+          <p class="text-xl">
+            COFF is an application that utilizes NFTs for the purchasing process
+            of coffe. It lets users buy and sell tokens, COFF, which can be
+            acquired anytime, anywhere, and change them at registered stores
+            using the app.
+          </p>
+          <div class="gap-2 flex">
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+          </div>
+        </div>
+      </UContainer>
+
+      <!-- Project 3 -->
+
+      <UContainer
+        class="grid grid-cols-2 justify-center text-left items-center space-x-4"
+      >
+        <div class="flex flex-col gap-4">
+          <h2 class="text-5xl font-bold">codeCave Webpage</h2>
+          <p class="text-xl">
+            COFF is an application that utilizes NFTs for the purchasing process
+            of coffe. It lets users buy and sell tokens, COFF, which can be
+            acquired anytime, anywhere, and change them at registered stores
+            using the app.
+          </p>
+          <div class="gap-2 flex">
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+            <UIcon name="i-heroicons-photo"></UIcon>
+          </div>
+        </div>
+
+        <div><img src="/public/img/codecave.png" alt="" /></div>
+      </UContainer>
+    </div>
 
     <ULandingSection
       :title="page.features.title"
