@@ -27,32 +27,6 @@ useSeoMeta({
       <div
         class="absolute inset-0 landing-grid z-[-1] [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
       />
-
-      <template #headline>
-        <UBadge
-          v-if="page.hero.headline"
-          variant="subtle"
-          size="lg"
-          class="relative rounded-full font-semibold"
-        >
-          <NuxtLink
-            :to="page.hero.headline.to"
-            target="_blank"
-            class="focus:outline-none"
-            tabindex="-1"
-          >
-            <span class="absolute inset-0" aria-hidden="true" />
-          </NuxtLink>
-
-          {{ page.hero.headline.label }}
-
-          <UIcon
-            v-if="page.hero.headline.icon"
-            :name="page.hero.headline.icon"
-            class="ml-1 w-4 h-4 pointer-events-none"
-          />
-        </UBadge>
-      </template>
     </ULandingHero>
     <!-- Projects section -->
     <div class="flex flex-col gap-40">
@@ -71,26 +45,42 @@ useSeoMeta({
           <h2 class="text-3xl font-bold">COFF</h2>
           <p class="text-xl">
             COFF is an application that utilizes NFTs for the purchasing process of coffe. It lets
-            users buy and sell tokens, COFF, which can be acquired anytime, anywhere, and change
-            them at registered stores using the app.
+            users buy and sell tokens, COFF, which canbe acquired anytime, anywhere, and change them
+            at registered stores using the app.
           </p>
-          <div class="gap-2 flex">
-            <UIcon name="i-simple-icons-github" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-discord" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-x" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-instagram" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-linkedin" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-facebook" class="w-7 h-7 flex-shrink-0" />
+          <div class="flex gap-5">
+            <UButton
+              color="black"
+              to="https://coff.ar/"
+              label="Coff web"
+              trailing-icon="i-heroicons-arrow-right"
+              size="sm"
+              class="rounded-full"
+            />
+            <UButton
+              color="gray"
+              to="https://volta.net/changelog"
+              label="Github"
+              trailing-icon="i-simple-icons-github"
+              size="sm"
+              class="rounded-full"
+            />
           </div>
         </div>
 
-        <div><img class="rounded-lg" src="/public/img/coff.png" alt="" /></div>
+        <div>
+          <ULink to="https://coff.ar/">
+            <img class="rounded-lg" src="/public/img/coff.png" alt="" />
+          </ULink>
+        </div>
       </UContainer>
 
       <!-- Project 2 -->
 
       <UContainer class="grid grid-cols-2 gap-10 justify-center text-left items-center space-x-4">
-        <div><img class="rounded-lg" src="/public/img/vegy.png" alt="" /></div>
+        <ULink to="https://vegy.ar/">
+          <img class="rounded-lg" src="/public/img/vegy.png" alt="" />
+        </ULink>
         <div class="flex flex-col gap-4">
           <h2 class="text-3xl font-bold">Vegy</h2>
           <p class="text-xl">
@@ -98,13 +88,23 @@ useSeoMeta({
             users buy and sell tokens, COFF, which can be acquired anytime, anywhere, and change
             them at registered stores using the app.
           </p>
-          <div class="gap-2 flex">
-            <UIcon name="i-simple-icons-github" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-discord" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-x" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-instagram" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-linkedin" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-facebook" class="w-7 h-7 flex-shrink-0" />
+          <div class="flex gap-5">
+            <UButton
+              color="black"
+              to="https://vegy.ar/"
+              label="Vegy web"
+              trailing-icon="i-heroicons-arrow-right"
+              size="sm"
+              class="rounded-full"
+            />
+            <UButton
+              color="gray"
+              to="https://volta.net/changelog"
+              label="Github"
+              trailing-icon="i-simple-icons-github"
+              size="sm"
+              class="rounded-full"
+            />
           </div>
         </div>
       </UContainer>
@@ -119,17 +119,28 @@ useSeoMeta({
             users buy and sell tokens, COFF, which can be acquired anytime, anywhere, and change
             them at registered stores using the app.
           </p>
-          <div class="gap-2 flex">
-            <UIcon name="i-simple-icons-github" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-discord" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-x" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-instagram" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-linkedin" class="w-7 h-7 flex-shrink-0" />
-            <UIcon name="i-simple-icons-facebook" class="w-7 h-7 flex-shrink-0" />
+          <div class="flex gap-5">
+            <UButton
+              color="black"
+              to="https://codecave.ar/"
+              label="codeCave web"
+              trailing-icon="i-heroicons-arrow-right"
+              size="sm"
+              class="rounded-full"
+            />
+            <UButton
+              color="gray"
+              to="https://volta.net/changelog"
+              label="Github"
+              trailing-icon="i-simple-icons-github"
+              size="sm"
+              class="rounded-full"
+            />
           </div>
         </div>
-
-        <div><img class="rounded-lg" src="/public/img/codecave.png" alt="" /></div>
+        <ULink to="https://codecave.ar/">
+          <img class="rounded-lg" src="/public/img/codeCave.png" alt="" />
+        </ULink>
       </UContainer>
     </div>
 
