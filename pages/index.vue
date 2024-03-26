@@ -41,8 +41,10 @@ useSeoMeta({
     <div class="flex flex-col gap-32">
       <!-- Project 1 -->
 
-      <UContainer class="grid grid-cols-2 gap-10 justify-center text-left items-center space-x-4">
-        <div class="flex flex-col gap-4">
+      <UContainer
+        class="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center text-left items-center space-x-4"
+      >
+        <div class="flex flex-col gap-4 order-2">
           <h2 class="text-3xl font-bold">COFF</h2>
           <p class="text-xl">
             COFF is an application that utilizes NFTs for the purchasing process of coffe. It lets
@@ -77,7 +79,9 @@ useSeoMeta({
 
       <!-- Project 2 -->
 
-      <UContainer class="grid grid-cols-2 gap-10 justify-center text-left items-center space-x-4">
+      <UContainer
+        class="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center text-left items-center space-x-4"
+      >
         <ULink to="https://vegy.ar/">
           <img class="rounded-lg" src="/public/img/vegy.png" alt="" />
         </ULink>
@@ -110,8 +114,10 @@ useSeoMeta({
 
       <!-- Project 3 -->
 
-      <UContainer class="grid grid-cols-2 gap-10 justify-center text-left items-center space-x-4">
-        <div class="flex flex-col gap-4">
+      <UContainer
+        class="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center text-left items-center space-x-4"
+      >
+        <div class="flex flex-col gap-4 order-2">
           <h2 class="text-3xl font-bold">codeCave Webpage</h2>
           <p class="text-xl">
             COFF is an application that utilizes NFTs for the purchasing process of coffe. It lets
